@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="75" height="75" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="13">
+ <tileset firstgid="1" source="tilesheet_complete.tsx"/>
+ <layer id="1" name="Base" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eJztm2lyFDEMhTtkCIQQ9rtAJiGBSVgvw3InljuxnAVRFRWuh+S227Klgfx4f6LY7Xn63LblmZ1pmq6Rdkkr0nXSHukG6SZpxyC+T7pFOiDd7tC/RfyQdId0l3SPdJ/0gPSQ9Ogy/pj0hHREWpOOSSekp6RTozh6Zd2/RbzEqxF52xf8uuJKjp8JXl1xpccltq64kuMSW9bcHJEZa9Ix6WS1vVztCl5Z9/+O/uE96QPp4yoeV5jLXPveXH2i538mfSF9DcgV5tKTq2/0D99JP0g/A3KFuZzjCv36n9ZBzGWuvfR+j7IOnpMuSC9IL0mvSK9Jb0hvL+Mj84o+ReKqJO65Dm4GP7817nEeZJ+q+of1tnV82F8ErjSfavvH9bZ1fNifN1eaT0v6x/W2dXzYnxdXmkebhv5xvW3lCvsbzVXOoxHrVMt5cCRXmk8j16mW8+Aortin3nnteR4cxRV71TuvPc+Do7kqzSvyF2VfPoIrPueV5hX5i7IvH7UO1tTTkb8o3IxaB6UagtYe+YvCTStXtXXPCPWpg4xa7ict655n0x++0LMReWc/nitCz6y5qql7cnvNr55coUdSHUPzzIqrmrpn2j7HmDVX7FPpeVPzzLPOcDrjmRVX7FNte80z77pozrOW/lOmlo4PPdO+bzF6ndL8WtJ/6pPF+NgvbX/osX+R9mJL+mefLMeX+uXNFcctuGKvrMeX+uXN1d4kz8Oa9un86zE+6f7SiytpHtbsy9mn3POlu+TS8Un7L0+usI5auy+fq7tKXpWOL52HXlxJHnG9uXRfvil8PnpVW7et5Ur7bCXnqVxbvLso2ZezT6Vco1e1ddtSrnL5Z2mff86XVKX7cvaphutD8Ku2Hl/CVe7u6vc7+Vky9hqN3pefg1e19fg5rjSfvOqSKVNL2kvv95pzgcaV5pNnXZJ9Wtpe8qrmXJCeK7R6OfvkXe9uPe/hO4v9Km2f7rNy7/AI9e5WrvidJflV+nz2S3tXR7lHsagj5PyqWYe9uenNFcdzflnV273jlvUp3EOwV6PvB6NzxXEvrvB8FZ2r9aTPw95c4fnKmqt0z27FlTYPe3OF5ytrrnrVPT24wvOVFVdpnQrPDTjvl/R/KAi924Z1EOsvGMd5v+T556AS7yKug+yRFsd5b/H8nHepZ1G4wnmntcd532N86Bn75c2VVEOPsr9Dv7y5aq1P9Y6newyvvOGci/K+lOKeXOGci/C+nKtTXAzOG9fI2KMo3ESrM6S/r2SvonATqc6Q+hSZm7l4ek8h3Xm25iXt05uL1vhmku8BWfz3pXWCtF9vLiy4Sj+PdM7fTH/zVnvfHIELC65Ymq94b1GrKFxsyzr4L8Qj5S16PFLeoscj5S1iXPo+Q4S85b5PIP1eq0f9DJXeI3nnLVdv136zlfvNW+53D9L+b+63YWkdxJsbKS6NNRfXfMRzh8QMPmfb3lctdYgcexozpf3/AohD8Us=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Colisiones">
+  <object id="1" name="Pared" x="512" y="224" width="126" height="128">
+   <properties>
+    <property name="Collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="2" name="Pared" x="261" y="806" width="126" height="128">
+   <properties>
+    <property name="Collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="3" name="Pared" x="479" y="1564" width="126" height="128">
+   <properties>
+    <property name="Collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4" name="Pared" x="1411" y="1664" width="126" height="128">
+   <properties>
+    <property name="Collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5" name="Pared" x="609" y="608.333" width="126" height="128">
+   <properties>
+    <property name="Collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="6" name="Pared" x="1889" y="1178" width="126" height="128">
+   <properties>
+    <property name="Collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="7" name="Pared" x="927" y="668" width="126" height="128">
+   <properties>
+    <property name="Collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="8" name="Pared" x="1345" y="420" width="126" height="128">
+   <properties>
+    <property name="Collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" name="Pared" x="1635" y="546" width="126" height="128">
+   <properties>
+    <property name="Collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="10" name="Pared" x="1987" y="420" width="126" height="128">
+   <properties>
+    <property name="Collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="11" name="Pared" x="1635" y="152" width="126" height="128">
+   <properties>
+    <property name="Collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Respawn">
+  <object id="12" name="Player" x="122" y="306">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
